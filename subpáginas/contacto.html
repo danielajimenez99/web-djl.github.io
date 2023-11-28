@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/contactoestilo.css" />
+    <link rel="icon" href="/img/pandaicon.ico" type="image/x-icon" />
+    <title>Formulario contacto</title>
+  </head>
+  <body>
+    <header>
+      <img src="/img/logokungfu.png" alt="Logo" />
+      <h1>Kung Fu Panda</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="/../index.html">Inicio</a></li>
+        <li><a href="/subpáginas/proyecto.html">Sobre el proyecto</a></li>
+        <li><a href="/subpáginas/curriculum.html">Curriculum</a></li>
+        <li><a href="/subpáginas/contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+    <section>
+      <div class="izquierda">
+        <h2>Menú de navegación</h2>
+        <p>aaaa</p>
+        <p>bbbb</p>
+        <p>cccc</p>
+      </div>
+      <div id="principal">
+        <div id="formulario">
+          <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="Nombre"/><br><br>
+            <label for="apellido">Apellidos:</label>
+            <input type="text" id="apellido" name="Apellido"/><br><br>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="Email" required/><br><br>
+            <label for="telefono">Número de teléfono:</label>
+            <input type="tel" id="telefono" name="Teléfono"><br><br>
+            <label for="edad">Fecha de nacimiento:</label>
+            <input type="date" id="edad" name="Fecha de nacimiento"><br><br>
+            <label for="trato">¿Cómo prefiere ser tratado?</label>
+            <select id="tratos" name="Tratos">
+              <option value="Sr.">Sr.</option>
+              <option value="Sra.">Sra.</option>
+              <option value="Sra.">Srta.</option>
+            </select><br><br>
+            
+              <legend>Seleccione la prioridad de su mensaje:</legend>
+              <input type="radio" id="baja" name="Baja" value="Baja">
+              <label id="baja">Baja</label>
+              <input type="radio" id="normal" name="Normal" value="Normal">
+              <label for="normal">Normal</label>
+              <input type="radio" id="alta" name="Alta" value="Alta">
+              <label for="alta">Alta</label><br><br>
+            
+
+            <label for="condicion">Acepto los términos y condiciones:</label>
+            <input type="checkbox" id="condicion" name="Condición" required/><br><br>
+            <button type="submit">Enviar</button><br><br>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>Pie de Página</p>
+    </footer>
+  </body>
+</html>
