@@ -131,6 +131,10 @@
     border-radius: 5px;
   }
 
+  button[type="reset"] {
+    margin-top: 10px;
+  }
+
   label[for="condicion"] {
     display: flex;
     align-items: center;
@@ -139,7 +143,6 @@
 
   input[type="radio"] {
     -webkit-appearance: none;
-    -moz-appearance: none;
     border-radius: 50%;
     border: 2px solid #dad9d9;
     transition: 0.3s;
