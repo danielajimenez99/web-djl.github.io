@@ -75,6 +75,10 @@ section {
   box-shadow: 1px 1px 60px;
 }
 
+.izquierda::after {
+  
+}
+
 .derecha {
   order: 1;
   background-color: #D3D3D3;
