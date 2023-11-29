@@ -31,34 +31,40 @@
         <div id="formulario">
           <form>
             <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="Nombre"/><br><br>
+            <input type="text" id="nombre" name="Nombre"/><br>
             <label for="apellido">Apellidos:</label>
-            <input type="text" id="apellido" name="Apellido"/><br><br>
+            <input type="text" id="apellido" name="Apellido"/><br>
             <label for="email">Correo electrónico:</label>
-            <input type="email" id="email" name="Email" required/><br><br>
+            <input type="email" id="email" name="Email" required/><br>
             <label for="telefono">Número de teléfono:</label>
-            <input type="tel" id="telefono" name="Teléfono"><br><br>
+            <input type="tel" id="telefono" name="Teléfono"><br>
             <label for="edad">Fecha de nacimiento:</label>
-            <input type="date" id="edad" name="Fecha de nacimiento"><br><br>
+            <input type="date" id="edad" name="Fecha de nacimiento"><br>
             <label for="trato">¿Cómo prefiere ser tratado?</label>
             <select id="tratos" name="Tratos">
               <option value="Sr.">Sr.</option>
               <option value="Sra.">Sra.</option>
               <option value="Sra.">Srta.</option>
-            </select><br><br>
+            </select><br>
+            <label for="archivo">Adjuntar archivo:</label>
+            <input type="file" id="archivo" name="Archivo"/><br>
             
+            <fieldset>
               <legend>Seleccione la prioridad de su mensaje:</legend>
-              <input type="radio" id="baja" name="Baja" value="Baja">
+              <input type="radio" id="baja" name="Prioridad" value="Baja">
               <label id="baja">Baja</label>
-              <input type="radio" id="normal" name="Normal" value="Normal">
+              <input type="radio" id="normal" name="Prioridad" value="Normal">
               <label for="normal">Normal</label>
-              <input type="radio" id="alta" name="Alta" value="Alta">
-              <label for="alta">Alta</label><br><br>
-            
+              <input type="radio" id="alta" name="Prioridad" value="Alta">
+              <label for="alta">Alta</label><br>
+            </fieldset>
 
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="Mensaje" rows="10" cols="50"></textarea><br>
             <label for="condicion">Acepto los términos y condiciones:</label>
-            <input type="checkbox" id="condicion" name="Condición" required/><br><br>
-            <button type="submit">Enviar</button><br><br>
+            <input type="checkbox" id="condicion" name="Condición" required/><br>
+
+            <button type="submit">Enviar</button><br>
           </form>
         </div>
       </div>
