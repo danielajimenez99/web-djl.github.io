@@ -153,7 +153,16 @@
 
   .dona {
     margin: auto;
-    text-align: center;
+    text-align: left;
+    width: 500px;
+  }
+
+  .instruccion {
+    flex: 1;
+    padding: 10px;
+  }
+
+  .instruccion img {
     width: 500px;
   }
   
