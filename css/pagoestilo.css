@@ -93,13 +93,6 @@
     text-align: center;
   }
 
-  .derecha {
-    order: 1;
-    background-color: #D3D3D3;
-    padding: 20px;
-    margin: 10px;
-  }
-
   /* Unico del html pago */
 
   .formulario {
@@ -115,7 +108,7 @@
     background-color: #FFFFFF;
     padding: 20px;
     margin: 10px;
-    text-align: center; /* Alinea el contenido al centro */
+    text-align: center;
   }
   
   .principal h2 {
@@ -158,4 +151,9 @@
     background-color: #660708;
   }
 
+  .dona {
+    margin: auto;
+    text-align: center;
+    width: 500px;
+  }
   
