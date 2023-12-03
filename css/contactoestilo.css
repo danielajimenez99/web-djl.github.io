@@ -99,6 +99,22 @@
     text-align: center;
   }
 
+  p a {
+    text-decoration: none;
+    color: #161A1D;
+  }
+  
+  p a:hover {
+    text-decoration: underline;
+    color: #660708;
+  }
+  
+  div.izquierda img {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+  }
+
     /* Único del documento del formulario contacto */
 
   fieldset {
