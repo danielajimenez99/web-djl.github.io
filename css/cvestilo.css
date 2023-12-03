@@ -50,7 +50,6 @@
   li.barra:hover {
     background-color:#660708;
     color:#FFFFFF;
-    /* border:groove 2px #161A1D; */
   }
   
   section {
@@ -121,7 +120,7 @@
     margin-top: 20px;
   }
   
-  td, th {
+  td{
     border: 1px solid #ddd;
     padding: 8px;
     text-align: left;
@@ -133,9 +132,7 @@
     max-width: 100px;
     border-radius: 50%;
   }
-  th {
-    background-color: #f2f2f2;
-  }
+  
   table tr:last-child {
     background-color: #f2f2f2;
   }
