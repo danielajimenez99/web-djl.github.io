@@ -50,7 +50,6 @@
   li:hover {
     background-color:#660708;
     color:#FFFFFF;
-    /* border:groove 2px #161A1D; */
   }
   
   section {
@@ -81,6 +80,8 @@
     padding: 20px;
     margin: 10px;
   }
+
+  /* Único de sobre el proyecto */
 
   .formulario img {
     padding: 50px 50px;
