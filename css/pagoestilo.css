@@ -138,6 +138,8 @@
     margin-bottom: 20px;
   }
   
+  /* Único de donación */
+  
   form {
     display: flex;
     flex-direction: column;
@@ -173,13 +175,10 @@
     width: 500px;
   }
 
-  .instruccion {
-    flex: 1;
-    padding: 10px;
-  }
 
   .instruccion img {
     width: 500px;
+    padding: 10px;
   }
   
   input, select {

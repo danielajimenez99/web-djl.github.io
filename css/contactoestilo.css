@@ -115,7 +115,7 @@
     margin: 0 auto;
   }
 
-    /* Único del documento del formulario contacto */
+    /* Único del documento del formulario de contacto */
 
   fieldset {
     border: none;
@@ -194,4 +194,8 @@
   .derecha a:hover {
     text-decoration: underline;
     color: #660708;
+  }
+
+  button:hover {
+    background-color: #660708;
   }
