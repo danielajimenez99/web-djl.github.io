@@ -153,3 +153,8 @@
   .cv {
     text-align: center;
   }
+
+  video {
+    display: block;
+    margin: 70px auto;
+  }
