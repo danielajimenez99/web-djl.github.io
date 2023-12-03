@@ -108,3 +108,11 @@
     display: block;
     margin: 0 auto;
   }
+
+  img.google {
+    width: 500px;
+  }
+
+  img.youtube {
+    width: 500px;
+  }
