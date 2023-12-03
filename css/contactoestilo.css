@@ -75,7 +75,7 @@
     box-shadow: 1px 1px 60px;
   }
   
-  #principal {
+  .principal {
     flex: 2;
     background-color: #FFFFFF;
     padding: 20px;
@@ -125,7 +125,7 @@
     margin-bottom: 5px;
   }
 
-  #formulario {
+  .formulario {
     background-color: #F5F3F4;
     padding: 20px;
     border-radius: 10px;

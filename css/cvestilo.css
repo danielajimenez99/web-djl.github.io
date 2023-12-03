@@ -82,7 +82,7 @@
     margin: 10px;
   }
   
-  #principal {
+  .principal {
     flex: 2;
     background-color: #FFFFFF;
     padding: 20px;
@@ -113,12 +113,6 @@
   }
 
   /* Estilos para la sección del currículum */
-#principal {
-    flex: 2;
-    background-color: #FFFFFF;
-    padding: 20px;
-    margin: 10px;
-  }
   
   table {
     width: 65%;

@@ -81,7 +81,7 @@ section {
   margin: 10px;
 }
 
-#principal {
+.principal {
   flex: 2;
   background-color: #FFFFFF;
   padding: 20px;
