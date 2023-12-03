@@ -1,63 +1,139 @@
-body {
-    font-family: Arial, sans-serif;
+@font-face {
+    font-family: "go3v2.ttf";
+    src: url(/../fuentes/go3v2.ttf);
+  }
+  
+  body {
     margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #BA181B;
-    color: white;
-    padding: 5px;
-    text-align: center;
-}
-
-nav {
+    font-family: Arial, sans-serif;
+    background-color: #F5F3F4;
+    color: #161A1D;
+  }
+  
+  header {
     background-color: #A4161A;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    display: inline-block;
-}
-
-main {
+    color: #FFFFFF;
     display: flex;
-    flex-wrap: wrap;
-}
-
-section {
-    flex: 2;
-    padding: 20px;
-}
-
-aside {
-    flex: 1;
-    padding: 20px;
-    background-color: #D3D3D3;
-}
-
-article {
-    margin-bottom: 20px;
-}
-
-footer {
-    background-color: #BA181B;
-    color: white;
-    padding: 10px;
-    text-align: center;
-}
-
-.sliding-column {
+    justify-content: center;
+    align-items: center;
+    font-family: "go3v2.ttf", Arial, sans-serif;
+    border: 1px solid #A4161A;
+    text-shadow: -6px 5px 4px black;
+  }
+  
+  header img {
+    max-width: 80px;
+  }
+  
+  nav {
+    background-color: #161A1D;
+    color: #FFFFFF;
+    padding: 2px;
+  }
+  
+  ul.barra {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+  }
+  
+  li.barra {
+    padding: 15px;
+  }
+  
+  li.barra a {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 0 50px;
+  }
+  
+  li.barra:hover {
+    background-color:#660708;
+    color:#FFFFFF;
+    /* border:groove 2px #161A1D; */
+  }
+  
+  section {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  .izquierda {
+    order: -1;
     position: fixed;
-    top: 0;
-    left: -250px;
+    left: -245px;
     height: 100%;
     width: 250px;
     background-color: #D3D3D3;
-    color: white;
     padding: 10px;
     transition: left 0.5s;
-}
+  }
+  
+  .izquierda:hover {
+    left: 0px;
+    box-shadow: 1px 1px 60px;
+  }
+  
+  .derecha {
+    order: 1;
+    background-color: #D3D3D3;
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  #principal {
+    flex: 2;
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  footer {
+    background-color: #660708;
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+  }
 
-.sliding-column:hover {
-    left: 0;
-}
+  /* Estilos para la sección del currículum */
+#principal {
+    flex: 2;
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  table {
+    width: 65%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  td img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100px;
+    border-radius: 50%;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+  table tr:last-child {
+    background-color: #f2f2f2;
+  }
+
+  .trabajo {
+    background-color: #f2f2f2;
+  }
+
+  .cv {
+    text-align: center;
+  }
