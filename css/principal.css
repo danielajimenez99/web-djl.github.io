@@ -15,6 +15,7 @@ header {
   color: #FFFFFF;
   display: flex;
   justify-content: center;
+  align-items: center;
   font-family: "go3v2.ttf", Arial, sans-serif;
   border: 1px solid #A4161A;
   text-shadow: -6px 5px 4px black;
