@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/css/principal.css">
+  <link rel="stylesheet" href="/css/pagoestilo.css">
   <link rel="icon" href="/img/pandaicon.ico" type="image/x-icon">
   <title>Curriculum</title>
 </head>
@@ -29,9 +29,19 @@
     </div>
     <div class="principal">
         <div class="formulario">
-            <img src="/img/lapanda.jpg" alt="Po y los Cinco Furiosos">
-            <h2>Introduce tu información bancaria!!</h2>
-            <p>Contenido principal</p>
+          <h2>Introduce tu información bancaria!!</h2>
+          <img src="/img/lapanda.jpg" alt="Po y los Cinco Furiosos">
+          <form>
+            <label for="nombre">Nombre en la tarjeta:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="numero_tarjeta">Número de tarjeta:</label>
+            <input type="text" id="numero_tarjeta" name="numero_tarjeta" required>
+            <label for="fecha_vencimiento">Fecha de vencimiento:</label>
+            <input type="text" id="fecha_vencimiento" name="fecha_vencimiento" placeholder="MM/AA" required>
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" name="cvv" required>
+            <button type="submit">Enviar</button>
+          </form>
         </div>
     </div>
     <div class="derecha">

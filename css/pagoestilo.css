@@ -99,3 +99,63 @@
     padding: 20px;
     margin: 10px;
   }
+
+  /* Unico del html pago */
+
+  .formulario {
+    background-color: #F5F3F4;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+  }
+
+  .principal {
+    flex: 2;
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin: 10px;
+    text-align: center; /* Alinea el contenido al centro */
+  }
+  
+  .principal h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .principal img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    margin-bottom: 8px;
+  }
+  
+  input {
+    margin-bottom: 16px;
+    padding: 10px;
+    border: 1px solid #B1A7A6;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #A4161A;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #660708;
+  }
+
+  
